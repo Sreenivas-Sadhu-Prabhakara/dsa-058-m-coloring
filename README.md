@@ -12,6 +12,13 @@ Color vertices in index order. For vertex v, try each color 1..m that no already
 
 **Complexity:** O(mⁿ) worst case, O(n) state — the point of the exercise is the pruning pattern, not asymptotics.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
